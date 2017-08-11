@@ -15,5 +15,6 @@
     <script type="text/javascript" src="{{asset('dist/styles.bundle.js')}}"></script>
     <script type="text/javascript" src="{{asset('dist/vendor.bundle.js')}}"></script>
     <script type="text/javascript" src="{{asset('dist/main.bundle.js')}}"></script>
+
     </body>
 </html>
