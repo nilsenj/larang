@@ -1,6 +1,12 @@
-# Blog
+###This is a full-stack combination of Laravel 5.4 and Angular4
+to run it type `npm run serve`
+and launch your laravel app.
+It will build scripts and and watch for files changes! `hint` without live-reload
+####or
+`ng serve` will just launch client app from webpack/node server
+# App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.0.
+Angular part of the project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.0.
 
 ## Development server
 
