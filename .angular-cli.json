@@ -22,7 +22,8 @@
         "../node_modules/bootstrap/dist/css/bootstrap.min.css",
         "styles.scss"
       ],
-      "scripts": [],
+      "allowJs": true,
+      "scripts": ["../node_modules/jquery/dist/jquery.min.js"],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
