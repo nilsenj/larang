@@ -5,8 +5,12 @@ It will build scripts and and watch for files changes! `hint` without live-reloa
 ####or
 `ng serve` will just launch client app from webpack/node server
 # App
-
 Angular part of the project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.0.
+
+##See jwt branch
+If you want JWT Auth, Toastr notifications and small fixes 
+use jwt branch
+
 
 ## Development server
 
