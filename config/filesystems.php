@@ -54,6 +54,12 @@ return [
             'url' => env('APP_URL').'/storage',
             'visibility' => 'public',
         ],
+
+        'assets' => [
+            'driver' => 'local',
+            'root' => base_path('src/assets')
+        ],
+
         's3' => [
             'driver' => 's3',
             'key' => env('AWS_KEY'),
