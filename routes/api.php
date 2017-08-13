@@ -19,7 +19,7 @@ use Illuminate\Http\Request;
 
 Route::group(['middleware' => ['api'], 'as' => 'api.'], function () {
     if(isset($_SERVER['HTTP_ORIGIN'])) {
-        $origin = !empty($_SERVER['HTTP_ORIGIN'] ? $_SERVER['HTTP_ORIGIN'] : "");
+        $origin = !empty($_SERVER['HTTP_ORIGIN']) ? $_SERVER['HTTP_ORIGIN'] : "";
     } else {
         $origin = !empty($_SERVER['HTTP_HOST']) ? "http://" . $_SERVER['HTTP_HOST'] : "";
     }
