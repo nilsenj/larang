@@ -19,9 +19,9 @@ use Illuminate\Http\Request;
 
 Route::group(['middleware' => ['api'], 'as' => 'api.'], function () {
     if(isset($_SERVER['HTTP_ORIGIN'])) {
-        $origin = $_SERVER['HTTP_ORIGIN'];
+        $origin = !empty($_SERVER['HTTP_ORIGIN'] ? $_SERVER['HTTP_ORIGIN'] : "");
     } else {
-        $origin = "http://" . $_SERVER['HTTP_HOST'];
+        $origin = !empty($_SERVER['HTTP_HOST']) ? "http://" . $_SERVER['HTTP_HOST'] : "";
     }
 
     if ((\App::environment('local', 'staging') && ($origin == "http://localhost:4200"))
